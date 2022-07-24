@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: #42455A;
+}
+
+.menu{
+    background-color: #2e3459;
+}
+
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+    background: #2e3459;
+    list-style: none;
+}
+
+.menu ul li{
+    margin: 0 20px;
+    color: #B2B1B1;
+    cursor:pointer;
+}
+
+.logo{
+    margin:0px;
+    padding:0px;
+    width: 30px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+
+
+.links{
+    text-decoration: none;
+    color:#19dafa !important
+}
+
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left:130px;
+    position: absolute;
+    color:#FFFFFF;
+}
+
+.app-text{
+    width: 50%;
+    float:left;
+}
+
+.app-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.app-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #919191;
+}
+
+.app-picture{
+    width: 50%;
+    float:right;
+}
+
+.app-picture img{
+    width: 100%;
+    margin-top: -90px;
+    padding-left: 50px;
+}
+
+.links-deactivated{
+    text-decoration: none;
+    color: #B2B1B1;
+}
+
+.play-btn{
+    margin-left: 40px;
+    display: inline-flex;
+}
+
+.play-btn-inner{
+    height: 50px;
+    width: 50px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(#42455a,#42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    text-align:center;
+}
+
+.play-btn-inner .fa{
+    padding:18px 0;
+    font-size: 13px;
+    cursor:pointer;
+    color:#fff;
+}
+
+.play-letters{
+    margin:auto 20px;
+    position: relative;
+    top:20px;
+    cursor:pointer;
+    font-size: 12px;
+    color:#19dafa;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.quick-links{
+    left:0;
+    bottom:0;
+    position: absolute;
+    background:linear-gradient(to right,#db1bf6,#19d7f8);
+}
+
+.quick-links ul{
+    display: inline-flex;
+    margin:40px auto;
+    text-align: center;
+}
+
+.quick-links ul li{
+    list-style: none;
+    cursor:pointer;
+    margin:0 50px;
+}
+
+.quick-links ul li .fa{
+    font-size: 25px;
+    color : #fff;
+}
+
+
+.quick-links ul li a{
+    margin-top: 15px;
+    font-size: 20px;
+    color : #fff;
+}
+
+.signup-btn{
+    top:40px;
+    right:80px;
+    position: absolute;
+    text-decoration: none;
+    color:#FFFFFF;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a,#42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+
+.signup-btn span{
+    display: block;
+    padding: 8px 22px;
+}
